@@ -1,0 +1,1109 @@
+<!DOCTYPE html><html lang="ms"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mia Edayu Toyota Kuantan | Penasihat Jualan Sah Toyota</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+        /* --- GLOBAL STYLES & VARIABLES --- */
+        :root {
+            --primary-color: #111111; /* Hitam Estetik */
+            --secondary-color: #7d7d7d; /* Kelabu Elegan */
+            --accent-color: #eb0a1e; /* Merah Toyota Ikonik */
+            --whatsapp-color: #25D366; /* Hijau WhatsApp */
+            --tiktok-color: #010101; /* Hitam TikTok */
+            --facebook-color: #1877F2; /* Biru Facebook */
+            --bg-light: #f9f9f9;
+            --white: #ffffff;
+            --shadow-smooth: 0 10px 30px rgba(0,0,0,0.05);
+            --transition: all 0.3s ease;
+        }
+
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+body {
+            background-color: var(--bg-light);
+            color: var(--primary-color);
+            line-height: 1.6;
+        }
+
+/* --- NAVIGATION --- */
+        header {
+            background-color: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid #eee;
+        }
+
+.nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+.logo {
+            font-size: 20px;
+            font-weight: 700;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+
+.logo span {
+            color: var(--accent-color);
+        }
+
+/* --- HERO SECTION --- */
+        .hero {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+.hero-banner {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://arleta.site/interactivelink/118/hero-image-toyota.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: var(--white);
+            border-radius: 24px;
+            padding: 80px 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+
+.hero-banner h1 {
+            font-size: 3rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            letter-spacing: -1px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+.hero-banner h1 span {
+            color: var(--accent-color);
+        }
+
+.hero-banner p {
+            color: #e0e0e0;
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 20px auto;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+
+/* --- ADVISOR INFO SECTION --- */
+        .advisor-section {
+            max-width: 1200px;
+            margin: -10px auto 40px auto;
+            padding: 0 20px;
+        }
+
+.advisor-card {
+            background: var(--white);
+            padding: 30px;
+            border-radius: 20px;
+            box-shadow: var(--shadow-smooth);
+            border: 1px solid #eee;
+            display: grid;
+            grid-template-columns: 200px 1fr 1fr;
+            gap: 30px;
+            align-items: center;
+        }
+
+.advisor-profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 16px;
+            object-fit: cover;
+            border: 3px solid #eee;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+.advisor-profile-img:hover {
+            transform: scale(1.02);
+            border-color: var(--accent-color);
+        }
+
+.advisor-info h3 {
+            font-size: 1.5rem;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+.advisor-info .badge {
+            display: inline-block;
+            background: rgba(235, 10, 30, 0.1);
+            color: var(--accent-color);
+            padding: 4px 12px;
+            border-radius: 50px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+        }
+
+.info-item {
+            font-size: 0.95rem;
+            margin-bottom: 10px;
+            color: #444;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+.info-item strong {
+            color: var(--primary-color);
+        }
+
+.social-buttons-container {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+            flex-wrap: wrap;
+        }
+
+.btn-social {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            color: var(--white);
+            text-decoration: none;
+            padding: 10px 16px;
+            border-radius: 10px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            transition: var(--transition);
+        }
+
+.btn-tiktok {
+            background-color: var(--tiktok-color);
+        }
+
+.btn-facebook {
+            background-color: var(--facebook-color);
+        }
+
+.btn-social:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+
+.advisor-notes {
+            background: #fff8f8;
+            border-left: 4px solid var(--accent-color);
+            padding: 20px;
+            border-radius: 0 12px 12px 0;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+.advisor-notes h4 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+            color: var(--accent-color);
+        }
+
+.advisor-notes ul {
+            list-style: none;
+        }
+
+.advisor-notes li {
+            font-size: 0.95rem;
+            margin-bottom: 8px;
+            color: #333;
+            display: block; 
+        }
+
+/* --- FILTER SECTION --- */
+        .filter-section {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+.filter-wrapper {
+            background: var(--white);
+            padding: 24px;
+            border-radius: 16px;
+            box-shadow: var(--shadow-smooth);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+.filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+.filter-group label {
+            display: block;
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            color: var(--secondary-color);
+        }
+
+.filter-group select, .range-slider {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            background-color: #fafafa;
+            outline: none;
+            transition: var(--transition);
+        }
+
+.filter-group select:focus, .variant-select:focus {
+            border-color: var(--accent-color);
+        }
+
+.price-output {
+            font-weight: 600;
+            margin-top: 5px;
+            display: inline-block;
+            color: var(--accent-color);
+        }
+
+/* --- CATALOG (CAR CARDS) --- */
+        .catalog {
+            max-width: 1200px;
+            margin: 0 auto 80px auto;
+            padding: 0 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+.car-card {
+            background: var(--white);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: var(--shadow-smooth);
+            transition: var(--transition);
+            border: 1px solid #f0f0f0;
+            position: relative;
+        }
+
+.car-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+        }
+
+.car-image-container {
+            width: 100%;
+            height: 240px;
+            background-color: #e9e9e9;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+.car-image-container::after {
+            content: '🔍 Lihat Gambar';
+            position: absolute;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            padding: 8px 16px;
+            border-radius: 50px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            opacity: 0;
+            transition: var(--transition);
+            z-index: 2;
+        }
+
+.car-image-container:hover::after {
+            opacity: 1;
+        }
+
+.car-img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: var(--transition);
+        }
+
+.car-image-container:hover .car-img {
+            transform: scale(1.05);
+        }
+
+/* --- DISCOUNT BADGE TWEAKS --- */
+        .discount-badge {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            background: var(--accent-color);
+            color: var(--white);
+            padding: 6px 14px;
+            font-size: 0.85rem;
+            font-weight: 700;
+            border-radius: 50px;
+            box-shadow: 0 4px 10px rgba(235, 10, 30, 0.3);
+            z-index: 3;
+            animation: pulse 2s infinite;
+        }
+
+@keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+
+.car-info {
+            padding: 25px;
+        }
+
+.car-brand {
+            font-size: 0.85rem;
+            text-transform: uppercase;
+            color: var(--accent-color);
+            font-weight: 600;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+
+.car-name {
+            font-size: 1.4rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+.car-description {
+            font-size: 0.9rem;
+            color: #666;
+            margin-bottom: 15px;
+            height: 65px; /* Menyediakan ruang fizikal untuk 3 baris */
+            display: -webkit-box;
+            -webkit-line-clamp: 3; /* Membenarkan teks paparan sehingga 3 baris */
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+.variant-group {
+            margin-bottom: 15px;
+        }
+
+.variant-group label {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--secondary-color);
+            margin-bottom: 5px;
+        }
+
+.variant-select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            background-color: #fff;
+            outline: none;
+            cursor: pointer;
+        }
+
+.car-specs {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 12px;
+            margin-bottom: 20px;
+            border-top: 1px solid #f0f0f0;
+            border-bottom: 1px solid #f0f0f0;
+            padding: 15px 0;
+        }
+
+.spec-item {
+            font-size: 0.9rem;
+            color: #555;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+.car-price-box {
+            display: flex;
+            flex-direction: column;
+            margin-top: 15px;
+            gap: 2px;
+        }
+
+.price-label {
+            font-size: 0.85rem;
+            color: var(--secondary-color);
+        }
+
+.price-original {
+            font-size: 0.9rem;
+            text-decoration: line-through;
+            color: #999;
+        }
+
+.car-price {
+            font-size: 1.6rem;
+            font-weight: 800;
+            color: var(--accent-color);
+        }
+
+.price-subtext {
+            font-size: 0.75rem;
+            color: #999;
+            margin-top: -2px;
+        }
+
+/* --- BUTTONS --- */
+        .btn-whatsapp {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: var(--primary-color);
+            color: var(--white);
+            text-decoration: none;
+            padding: 14px 24px;
+            border-radius: 12px;
+            font-weight: 600;
+            text-align: center;
+            transition: var(--transition);
+            width: 100%;
+            margin-top: 20px;
+            border: 1px solid var(--primary-color);
+        }
+
+.btn-whatsapp:hover {
+            background-color: var(--whatsapp-color);
+            border-color: var(--whatsapp-color);
+        }
+
+/* --- LIGHTBOX MODAL IMAGE --- */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.85);
+            backdrop-filter: blur(5px);
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            cursor: zoom-out;
+        }
+
+.modal.show {
+            display: flex;
+            opacity: 1;
+        }
+
+.modal-content {
+            max-width: 85%;
+            max-height: 85%;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+            cursor: default;
+        }
+
+.modal.show .modal-content {
+            transform: scale(1);
+        }
+
+/* --- FOOTER --- */
+        footer {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+            font-size: 0.9rem;
+        }
+
+footer p {
+            color: #666;
+            margin-top: 10px;
+        }
+
+/* --- MOBILE RESPONSIVE --- */
+        @media (max-width: 992px) {
+            .advisor-card {
+                grid-template-columns: 1fr;
+                justify-items: center;
+                text-align: center;
+                gap: 20px;
+            }
+            .advisor-profile-img {
+                width: 180px;
+                height: 180px;
+            }
+            .info-item {
+                justify-content: center;
+            }
+            .social-buttons-container {
+                justify-content: center;
+            }
+            .advisor-notes {
+                border-left: none;
+                border-top: 4px solid var(--accent-color);
+                border-radius: 0 0 12px 12px;
+                width: 100%;
+            }
+        }
+
+@media (max-width: 768px) {
+            .hero-banner {
+                padding: 60px 20px;
+            }
+            .hero-banner h1 {
+                font-size: 2rem;
+            }
+            .filter-wrapper {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .catalog {
+                grid-template-columns: 1fr;
+            }
+            .modal-content {
+                max-width: 95%;
+            }
+        }
+    </style></head><body>
+
+<header>
+        <div class="nav-container">
+            <div class="logo">MIA EDAYU <span>TOYOTA KUANTAN</span></div>
+        </div>
+    </header>
+
+<section class="hero">
+        <div class="hero-banner">
+            <h1>Move <span>Forward</span></h1>
+            <p>Miliki model Toyota idaman anda bersama Penasihat Jualan sah dan berpengalaman.</p>
+        </div>
+    </section>
+
+<section class="advisor-section">
+        <div class="advisor-card">
+            <img src="https://arleta.site/interactivelink/118/mia-edayu-2.jpeg" alt="Mia Edayu Toyota Kuantan" class="advisor-profile-img" onclick="openModal(this.src)">
+
+<div class="advisor-info">
+                <span class="badge">Authorized Toyota Sales Advisor</span>
+                <h3>Mia Edayu Toyota Kuantan</h3>
+                <div class="info-item">
+                    📍 <span><strong>Lokasi:</strong> <a href="https://maps.google.com/?q=Toyota+Fokus+Timur+Semambu+Kuantan" target="_blank" style="color: var(--accent-color); text-decoration: underline; font-weight: 600;">Toyota Fokus Timur Semambu, Kuantan</a></span>
+                </div>
+                <div class="info-item">
+                    📱 <span><strong>Media Sosial Rasmi:</strong></span>
+                </div>
+                <div class="social-buttons-container">
+                    <a href="https://www.tiktok.com/@miaedayutoyotapahang" target="_blank" class="btn-social btn-tiktok">
+                        🎵 TikTok
+                    </a>
+                    <a href="https://www.facebook.com/miaedayu5152" target="_blank" class="btn-social btn-facebook">
+                        📘 Facebook
+                    </a>
+                </div>
+            </div>
+
+<div class="advisor-notes">
+                <h4>Kelebihan Urusan Bersama Mia Edayu:</h4>
+                <ul>
+                    <li>✅ Boleh terima <strong>Trade-In</strong> kereta lama anda.</li>
+                    <li>✅ Boleh <strong>deliver ke semua tempat</strong> dalam Semenanjung.</li>
+                    <li>✅ Urusan rundingan yang pantas, telus, dan mesra pelanggan.</li>
+                    <li>✅ Khidmat nasihat kelayakan pinjaman disediakan secara percuma.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+<section class="filter-section">
+        <div class="filter-wrapper">
+            <div class="filter-group">
+                <label for="brandFilter">Kategori Kenderaan</label>
+                <select id="brandFilter" onchange="filterCars()">
+                    <option value="all">Semua Kategori</option>
+                    <option value="Sedan">Sedan / Hatchback</option>
+                    <option value="SUV">SUV / Crossover</option>
+                    <option value="MPV">MPV / Family Car</option>
+                    <option value="Trak">Trak / 4x4</option>
+                    <option value="Van">Komersial / Van</option>
+                </select>
+            </div>
+
+<div class="filter-group">
+                <label for="priceRange">Had Harga Maksimum</label>
+                <input type="range" id="priceRange" class="range-slider" min="70000" max="250000" step="5000" value="250000" oninput="updatePriceLabel(this.value)">
+                <div>
+                    <span class="price-output">RM <span id="priceValue">250,000</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<main class="catalog" id="carCatalog">
+
+<div class="car-card" data-brand="Sedan" data-price="79600">
+            <div class="discount-badge">🔥 JIMAТ RM11,000</div>
+            <div class="car-image-container" onclick="openModal('https://arleta.site/interactivelink/118/VIOS.jpg')">
+                <img src="https://arleta.site/interactivelink/118/VIOS.jpg" alt="Toyota Vios" class="car-img">
+            </div>
+            <div class="car-info">
+                <div class="car-brand">Toyota Malaysia</div>
+                <div class="car-name">Toyota Vios</div>
+                <p class="car-description">Sedan segmen-B yang sangat popular, jimat minyak, dan dilengkapi ciri keselamatan canggih.</p>
+
+<div class="variant-group">
+                    <label for="viosVariant">Pilih Varian</label>
+                    <select id="viosVariant" class="variant-select" onchange="updateCarPrice('vios')">
+                        <option value="90600" data-name="1.5 E">1.5 E</option>
+                        <option value="96600" data-name="1.5 G">1.5 G</option>
+                        <option value="103900" data-name="1.5 HEV">1.5 HEV (Hybrid)</option>
+                        <option value="109900" data-name="1.5 H GRS">1.5 H GRS</option>
+                    </select>
+                </div>
+
+<div class="car-specs">
+                    <div class="spec-item">Tahun: 2026</div>
+                    <div class="spec-item">7-Speed CVT / HEV</div>
+                    <div class="spec-item">1.5L Dual VVT-i</div>
+                    <div class="spec-item">5 Tempat Duduk</div>
+                </div>
+
+<div class="car-price-box">
+                    <span class="price-label">Harga Atas Jalan (OTR) selepas diskaun</span>
+                    <span class="price-original" id="viosOriginalPrice">RM 90,600.00</span>
+                    <span class="car-price" id="viosPriceText">RM 79,600.00</span>
+                    <span class="price-subtext">*Tanpa Insurans</span>
+                </div>
+
+<a id="viosWhatsappBtn" href="https://wa.me/60129855152?text=Hai%20Mia%20Edayu%20Toyota%20Kuantan,%20saya%20berminat%20dengan%20Toyota%20Vios%20(Varian:%201.5%20E%20-%20Promo%20RM79,600.00)." target="_blank" class="btn-whatsapp">
+                    NAK TOYOTA VIOS
+                </a>
+            </div>
+        </div>
+
+<div class="car-card" data-brand="Sedan" data-price="76500">
+            <div class="discount-badge">🔥 JIMAТ RM11,500</div>
+            <div class="car-image-container" onclick="openModal('https://arleta.site/interactivelink/118/YARIS.jpg')">
+                <img src="https://arleta.site/interactivelink/118/YARIS.jpg" alt="Toyota Yaris" class="car-img">
+            </div>
+            <div class="car-info">
+                <div class="car-brand">Toyota Malaysia</div>
+                <div class="car-name">Toyota Yaris</div>
+                <p class="car-description">Hatchback kompak yang lincah untuk pemanduan bandar, tampil sporty dan praktikal.</p>
+
+<div class="variant-group">
+                    <label for="yarisVariant">Pilih Varian</label>
+                    <select id="yarisVariant" class="variant-select" onchange="updateCarPrice('yaris')">
+                        <option value="88000" data-name="1.5 E">1.5 E</option>
+                        <option value="91600" data-name="1.5 G">1.5 G</option>
+                    </select>
+                </div>
+
+<div class="car-specs">
+                    <div class="spec-item">Tahun: 2026</div>
+                    <div class="spec-item">7-Speed Dual CVT</div>
+                    <div class="spec-item">1.5L Dual VVT-i</div>
+                    <div class="spec-item">5 Tempat Duduk</div>
+                </div>
+
+<div class="car-price-box">
+                    <span class="price-label">Harga Atas Jalan (OTR) selepas diskaun</span>
+                    <span class="price-original" id="yarisOriginalPrice">RM 88,000.00</span>
+                    <span class="car-price" id="yarisPriceText">RM 76,500.00</span>
+                    <span class="price-subtext">*Tanpa Insurans</span>
+                </div>
+
+<a id="yarisWhatsappBtn" href="https://wa.me/60129855152?text=Hai%20Mia%20Edayu%20Toyota%20Kuantan,%20saya%20berminat%20dengan%20Toyota%20Yaris%20(Varian:%201.5%20E%20-%20Promo%20RM76,500.00)." target="_blank" class="btn-whatsapp">
+                    NAK TOYOTA YARIS
+                </a>
+            </div>
+        </div>
+
+<div class="car-card" data-brand="SUV" data-price="122800">
+            <div class="discount-badge">🔥 JIMAТ RM11,000</div>
+            <div class="car-image-container" onclick="openModal('https://arleta.site/interactivelink/118/CROSS.jpg')">
+                <img src="https://arleta.site/interactivelink/118/CROSS.jpg" alt="Toyota Corolla Cross" class="car-img">
+            </div>
+            <div class="car-info">
+                <div class="car-brand">Toyota Malaysia</div>
+                <div class="car-name">Toyota Corolla Cross</div>
+                <p class="car-description">SUV keluarga serba boleh dengan pemanduan tinggi, kabin luas, dan pilihan enjin Hybrid.</p>
+
+<div class="variant-group">
+                    <label for="crossVariant">Pilih Varian</label>
+                    <select id="crossVariant" class="variant-select" onchange="updateCarPrice('cross')">
+                        <option value="133800" data-name="1.8 V">1.8 V</option>
+                        <option value="140800" data-name="1.8 HEV">1.8 HEV (Hybrid)</option>
+                        <option value="148800" data-name="1.8 HEV GRS">1.8 HEV GRS</option>
+                    </select>
+                </div>
+
+<div class="car-specs">
+                    <div class="spec-item">Tahun: 2026</div>
+                    <div class="spec-item">CVT / E-CVT</div>
+                    <div class="spec-item">1.8L Dual VVT-i</div>
+                    <div class="spec-item">5 Tempat Duduk</div>
+                </div>
+
+<div class="car-price-box">
+                    <span class="price-label">Harga Atas Jalan (OTR) selepas diskaun</span>
+                    <span class="price-original" id="crossOriginalPrice">RM 133,800.00</span>
+                    <span class="car-price" id="crossPriceText">RM 122,800.00</span>
+                    <span class="price-subtext">*Tanpa Insurans</span>
+                </div>
+
+<a id="crossWhatsappBtn" href="https://wa.me/60129855152?text=Hai%20Mia%20Edayu%20Toyota%20Kuantan,%20saya%20berminat%20dengan%20Toyota%20Corolla%20Cross%20(Varian:%201.8%20V%20-%20Promo%20RM122,800.00)." target="_blank" class="btn-whatsapp">
+                    NAK COROLLA CROSS
+                </a>
+            </div>
+        </div>
+
+<div class="car-card" data-brand="Sedan" data-price="139800">
+            <div class="car-image-container" onclick="openModal('https://arleta.site/interactivelink/118/CORROLA.webp')">
+                <img src="https://arleta.site/interactivelink/118/CORROLA.webp" alt="Toyota Corolla" class="car-img">
+            </div>
+            <div class="car-info">
+                <div class="car-brand">Toyota Malaysia</div>
+                <div class="car-name">Toyota Corolla</div>
+                <p class="car-description">Sedan segmen-C eksekutif yang menawarkan keselesaan premium, pemanduan TNGA mantap dan kabin senap.</p>
+
+<div class="variant-group">
+                    <label for="corollaVariant">Pilih Varian</label>
+                    <select id="corollaVariant" class="variant-select" onchange="updateCarPrice('corolla')">
+                        <option value="139800" data-name="1.8 E AT">1.8 E AT</option>
+                        <option value="147800" data-name="1.8 G AT">1.8 G AT</option>
+                        <option value="152800" data-name="1.8 GRS">1.8 GRS</option>
+                    </select>
+                </div>
+
+<div class="car-specs">
+                    <div class="spec-item">Tahun: 2026</div>
+                    <div class="spec-item">7-Speed CVT Sequential</div>
+                    <div class="spec-item">1.8L Dual VVT-i</div>
+                    <div class="spec-item">5 Tempat Duduk</div>
+                </div>
+
+<div class="car-price-box">
+                    <span class="price-label">Harga Atas Jalan (OTR)</span>
+                    <span class="car-price" id="corollaPriceText">RM 139,800.00</span>
+                    <span class="price-subtext">*Tanpa Insurans</span>
+                </div>
+
+<a id="corollaWhatsappBtn" href="https://wa.me/60129855152?text=Hai%20Mia%20Edayu%20Toyota%20Kuantan,%20saya%20berminat%20dengan%20Toyota%20Corolla%20(Varian:%201.8%20E%20AT%20-%20RM139,800.00)." target="_blank" class="btn-whatsapp">
+                    NAK TOYOTA COROLLA
+                </a>
+            </div>
+        </div>
+
+<div class="car-card" data-brand="MPV" data-price="156000">
+            <div class="discount-badge">🔥 JIMAТ RM9,000</div>
+            <div class="car-image-container" onclick="openModal('https://arleta.site/interactivelink/118/INNOVA-ZENIX.png')">
+                <img src="https://arleta.site/interactivelink/118/INNOVA-ZENIX.png" alt="Toyota Innova Zenix" class="car-img">
+            </div>
+            <div class="car-info">
+                <div class="car-brand">Toyota Malaysia</div>
+                <div class="car-name">Toyota Innova Zenix</div>
+                <p class="car-description">MPV Crossover premium yang menawarkan ruang yang sangat luas, selesa, dan keselamatan keluarga terbaik.</p>
+
+<div class="variant-group">
+                    <label for="zenixVariant">Pilih Varian</label>
+                    <select id="zenixVariant" class="variant-select" onchange="updateCarPrice('zenix')">
+                        <option value="165000" data-name="ZENIX 2.0 V">ZENIX 2.0 V</option>
+                        <option value="202000" data-name="ZENIX 2.0 HEV">ZENIX 2.0 HEV (Hybrid)</option>
+                    </select>
+                </div>
+
+<div class="car-specs">
+                    <div class="spec-item">Tahun: 2026</div>
+                    <div class="spec-item">CVV / E-CVT (HEV)</div>
+                    <div class="spec-item">2.0L Dynamic Force</div>
+                    <div class="spec-item">7/8 Tempat Duduk</div>
+                </div>
+
+<div class="car-price-box">
+                    <span class="price-label">Harga Atas Jalan (OTR) selepas diskaun</span>
+                    <span class="price-original" id="zenixOriginalPrice">RM 165,000.00</span>
+                    <span class="car-price" id="zenixPriceText">RM 156,000.00</span>
+                    <span class="price-subtext">*Tanpa Insurans</span>
+                </div>
+
+<a id="zenixWhatsappBtn" href="https://wa.me/60129855152?text=Hai%20Mia%20Edayu%20Toyota%20Kuantan,%20saya%20berminat%20dengan%20Toyota%20Innova%20Zenix%20(Varian:%20ZENIX%202.0%20V%20-%20Promo%20RM156,000.00)." target="_blank" class="btn-whatsapp">
+                    NAK INNOVA ZENIX
+                </a>
+            </div>
+        </div>
+
+<div class="car-card" data-brand="Trak" data-price="92880">
+            <div class="discount-badge">🔥 JIMAТ RM12,000</div>
+            <div class="car-image-container" onclick="openModal('https://arleta.site/interactivelink/118/HILUX.jpg')">
+                <img src="https://arleta.site/interactivelink/118/HILUX.jpg" alt="Toyota Hilux" class="car-img">
+            </div>
+            <div class="car-info">
+                <div class="car-brand">Toyota Malaysia</div>
+                <div class="car-name">Toyota Hilux</div>
+                <p class="car-description">Trak pikap paling ikonik dengan ketahanan luar biasa untuk bebanan berat mahupun pemanduan lasak.</p>
+
+<div class="variant-group">
+                    <label for="hiluxVariant">Pilih Varian</label>
+                    <select id="hiluxVariant" class="variant-select" onchange="updateCarPrice('hilux')">
+                        <option value="104880" data-name="2.4 S/C MT">2.4 S/C MT (Single Cab)</option>
+                        <option value="117880" data-name="2.4 E MT">2.4 E MT</option>
+                        <option value="119880" data-name="2.4 E AT">2.4 E AT</option>
+                        <option value="149580" data-name="2.4 V AT">2.4 V AT</option>
+                        <option value="163080" data-name="2.8 ROGUE">2.8 ROGUE</option>
+                        <option value="173280" data-name="2.8 GRS">2.8 GRS</option>
+                    </select>
+                </div>
+
+<div class="car-specs">
+                    <div class="spec-item">Tahun: 2026</div>
+                    <div class="spec-item">MT / 6-Speed AT</div>
+                    <div class="spec-item">2.4L / 2.8L Intercooler</div>
+                    <div class="spec-item">2 / 5 Tempat Duduk</div>
+                </div>
+
+<div class="car-price-box">
+                    <span class="price-label">Harga Atas Jalan (OTR) selepas diskaun</span>
+                    <span class="price-original" id="hiluxOriginalPrice">RM 104,880.00</span>
+                    <span class="car-price" id="hiluxPriceText">RM 92,880.00</span>
+                    <span class="price-subtext">*Tanpa Insurans</span>
+                </div>
+
+<a id="hiluxWhatsappBtn" href="https://wa.me/60129855152?text=Hai%20Mia%20Edayu%20Toyota%20Kuantan,%20saya%20berminat%20dengan%20Toyota%20Hilux%20(Varian:%202.4%20S/C%20MT%20-%20Promo%20RM92,880.00)." target="_blank" class="btn-whatsapp">
+                    NAK TOYOTA HILUX
+                </a>
+            </div>
+        </div>
+
+<div class="car-card" data-brand="MPV" data-price="92000">
+            <div class="discount-badge">🔥 JIMAТ RM3,000</div>
+            <div class="car-image-container" onclick="openModal('https://arleta.site/interactivelink/118/VELOZ.jpg')">
+                <img src="https://arleta.site/interactivelink/118/VELOZ.jpg" alt="Toyota Veloz" class="car-img">
+            </div>
+            <div class="car-info">
+                <div class="car-brand">Toyota Malaysia</div>
+                <div class="car-name">Toyota Veloz</div>
+                <p class="car-description">MPV keluarga 7-tempat duduk yang sangat praktikal, luas, dan dilengkapi pelbagai ketersambungan pintar.</p>
+
+<div class="variant-group">
+                    <label for="velozVariant">Pilih Varian</label>
+                    <select id="velozVariant" class="variant-select" onchange="updateCarPrice('veloz')">
+                        <option value="95000" data-name="VELOZ 1.5 A/T">VELOZ 1.5 A/T</option>
+                    </select>
+                </div>
+
+<div class="car-specs">
+                    <div class="spec-item">Tahun: 2026</div>
+                    <div class="spec-item">7-Speed 7-CVT</div>
+                    <div class="spec-item">1.5L Dual VVT-i</div>
+                    <div class="spec-item">7 Tempat Duduk</div>
+                </div>
+
+<div class="car-price-box">
+                    <span class="price-label">Harga Atas Jalan (OTR) selepas diskaun</span>
+                    <span class="price-original" id="velozOriginalPrice">RM 95,000.00</span>
+                    <span class="car-price" id="velozPriceText">RM 92,000.00</span>
+                    <span class="price-subtext">*Tanpa Insurans</span>
+                </div>
+
+<a id="velozWhatsappBtn" href="https://wa.me/60129855152?text=Hai%20Mia%20Edayu%20Toyota%20Kuantan,%20saya%20berminat%20dengan%20Toyota%20Veloz%20(Varian:%20VELOZ%201.5%20A/T%20-%20Promo%20RM92,000.00)." target="_blank" class="btn-whatsapp">
+                    NAK TOYOTA VELOZ
+                </a>
+            </div>
+        </div>
+
+<div class="car-card" data-brand="Van" data-price="123000">
+            <div class="car-image-container" onclick="openModal('https://arleta.site/interactivelink/118/HIACE.png')">
+                <img src="https://arleta.site/interactivelink/118/HIACE.png" alt="Toyota Hiace" class="car-img">
+            </div>
+            <div class="car-info">
+                <div class="car-brand">Toyota Malaysia</div>
+                <div class="car-name">Toyota Hiace</div>
+                <p class="car-description">Van komersial legenda yang menawarkan ruang kargo maksimum, enjin tahan lasak dan kos operasi rendah.</p>
+
+<div class="variant-group">
+                    <label for="hiaceVariant">Pilih Varian</label>
+                    <select id="hiaceVariant" class="variant-select" onchange="updateCarPrice('hiace')">
+                        <option value="123000" data-name="HIACE P/VAN">HIACE P/VAN (Panel Van)</option>
+                    </select>
+                </div>
+
+<div class="car-specs">
+                    <div class="spec-item">Tahun: 2026</div>
+                    <div class="spec-item">Manual Transmisi</div>
+                    <div class="spec-item">2.5L Turbo Diesel</div>
+                    <div class="spec-item">Ruang Kargo Luas</div>
+                </div>
+
+<div class="car-price-box">
+                    <span class="price-label">Harga Atas Jalan (OTR)</span>
+                    <span class="car-price" id="hiacePriceText">RM 123,000.00</span>
+                    <span class="price-subtext">*Tanpa Insurans</span>
+                </div>
+
+<a id="hiaceWhatsappBtn" href="https://wa.me/60129855152?text=Hai%20Mia%20Edayu%20Toyota%20Kuantan,%20saya%20berminat%20dengan%20Toyota%20Hiace%20(Varian:%20HIACE%20P/VAN%20-%20RM123,000.00)." target="_blank" class="btn-whatsapp">
+                    NAK TOYOTA HIACE
+                </a>
+            </div>
+        </div>
+
+</main>
+
+<div id="imageModal" class="modal" onclick="closeModal()">
+        <img id="modalImg" class="modal-content" onclick="event.stopPropagation()">
+    </div>
+
+<footer>
+        <h3>MIA EDAYU TOYOTA HUANTAN</h3>
+        <p>© 2026 Hak Cipta Terpelihara.</p>
+    </footer>
+
+<script>
+        // Data Diskaun bagi setiap model (dalam RM)
+        const discounts = {
+            vios: 11000,
+            yaris: 11500,
+            cross: 11000,
+            corolla: 0,
+            zenix: 9000,
+            hilux: 12000,
+            veloz: 3000,
+            hiace: 0
+        };
+
+        // Fungsi Pop-up Gambar Besar (Modal)
+        function openModal(imgSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImg');
+            
+            modalImg.src = imgSrc;
+            modal.classList.add('show');
+            
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('imageModal');
+            modal.classList.remove('show');
+            
+            document.body.style.overflow = 'auto';
+        }
+
+        // Fungsi untuk mengemas kini harga dan pautan WhatsApp mengikut varian yang dipilih
+        function updateCarPrice(carId) {
+            const selectEl = document.getElementById(carId + 'Variant');
+            const originalPrice = parseInt(selectEl.value);
+            const discount = discounts[carId] || 0;
+            const finalPrice = originalPrice - discount;
+            const variantName = selectEl.options[selectEl.selectedIndex].getAttribute('data-name');
+            
+            // Kemaskini Harga Asal (jika ada diskaun)
+            const originalPriceEl = document.getElementById(carId + 'OriginalPrice');
+            if (originalPriceEl) {
+                originalPriceEl.innerText = 'RM ' + originalPrice.toLocaleString('en-US') + '.00';
+            }
+
+            // Kemaskini Harga Akhir selepas diskaun
+            const formattedFinalPrice = 'RM ' + finalPrice.toLocaleString('en-US') + '.00';
+            document.getElementById(carId + 'PriceText').innerText = formattedFinalPrice;
+            
+            const cardEl = selectEl.closest('.car-card');
+            cardEl.setAttribute('data-price', finalPrice);
+            
+            let carModelName = '';
+            if(carId === 'vios') carModelName = 'Toyota Vios';
+            if(carId === 'yaris') carModelName = 'Toyota Yaris';
+            if(carId === 'cross') carModelName = 'Toyota Corolla Cross';
+            if(carId === 'corolla') carModelName = 'Toyota Corolla';
+            if(carId === 'zenix') carModelName = 'Toyota Innova Zenix';
+            if(carId === 'hilux') carModelName = 'Toyota Hilux';
+            if(carId === 'veloz') carModelName = 'Toyota Veloz';
+            if(carId === 'hiace') carModelName = 'Toyota Hiace';
+
+            const whatsappBtn = document.getElementById(carId + 'WhatsappBtn');
+            
+            let msgText = `Hai Mia Edayu Toyota Kuantan, saya berminat dengan ${carModelName} (Varian: ${variantName} - ${formattedFinalPrice})`;
+            if (discount > 0) {
+                msgText += ` yang ada promosi diskaun RM${discount.toLocaleString()} itu.`;
+            } else {
+                msgText += `.`;
+            }
+            msgText += ` Boleh saya bertanya lebih lanjut mengenai trade-in / penghantaran?`;
+
+            const encodedText = encodeURIComponent(msgText);
+            whatsappBtn.href = `https://wa.me/60129855152?text=${encodedText}`;
+            
+            filterCars();
+        }
+
+        function updatePriceLabel(value) {
+            document.getElementById('priceValue').innerText = Number(value).toLocaleString();
+            filterCars();
+        }
+
+        function filterCars() {
+            const selectedBrand = document.getElementById('brandFilter').value;
+            const maxPrice = parseInt(document.getElementById('priceRange').value);
+            const carCards = document.querySelectorAll('.car-card');
+
+            carCards.forEach(card => {
+                const cardBrand = card.getAttribute('data-brand');
+                const cardPrice = parseInt(card.getAttribute('data-price'));
+
+                const matchBrand = (selectedBrand === 'all' || cardBrand === selectedBrand);
+                const matchPrice = (cardPrice <= maxPrice);
+
+                if (matchBrand && matchPrice) {
+                    card.style.display = 'block';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
+        // Jalankan fungsi init asal untuk set harga betul berdasarkan diskaun sewaktu page mula dibuka
+        window.onload = function() {
+            const models = ['vios', 'yaris', 'cross', 'zenix', 'hilux', 'veloz'];
+            models.forEach(model => {
+                if(document.getElementById(model + 'Variant')) {
+                    updateCarPrice(model);
+                }
+            });
+        }
+    </script>
+</body></html>
